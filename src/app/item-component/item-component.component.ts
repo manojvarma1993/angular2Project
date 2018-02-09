@@ -1,4 +1,4 @@
-import {Component } from '@angular/core';
+import {Component,Input } from '@angular/core';
 
 
 @Component({
@@ -10,5 +10,8 @@ templateUrl:'./item-component.component.html'
 
 export class ItemComponent
 {
+@Input() Items;
+
+
 
 }

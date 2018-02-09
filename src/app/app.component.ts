@@ -12,8 +12,20 @@ import { Component } from '@angular/core';
 
 export class AppComponent 
 {
-
-
+Lis=
+[
+{
+name:"The Simpsons",
+year:1989,
+Favorite:true,
+Mode:"Tv"
+},
+{
+  name:"Super Natural",
+  year:2017,
+  Favorite:false,
+  Mode:"comics"
+}]
 
 }
 
