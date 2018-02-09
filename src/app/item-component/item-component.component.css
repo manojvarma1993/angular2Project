@@ -2,11 +2,22 @@
 {
     font-size:50px;
 color: red;
+border-color:black; 
 }
 
 .NotFavorite
 {
     font-size:50px;
-   color: aqua; 
+   color:black; 
 }
 
+.isFavorite
+{
+    color: green;
+}
+
+
+.isHovering
+{
+      color:darkolivegreen;
+}
