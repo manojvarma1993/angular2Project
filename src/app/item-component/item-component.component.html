@@ -1,8 +1,11 @@
-<div  *ngFor="let item of Items" >
-
+<div  *ngFor="let item of Items"  >
+<div>
     <h1>{{item.name}}</h1>
     <h2>{{item.year}}</h2>
-    <h3>{{item.Favorite}}</h3>
-<h4>{{item.Mode}}</h4>
-
+    <h3 *ngIf="item.Favorite">{{item.Favorite}}</h3>
+    <h4>{{item.Mode}}<br/>
+        <span [ngClass]="{'Favorite':item.Favorite===true,'NotFavorite':item.Favorite===false}">
+    &#10084;
+        </span></h4>
+</div>
 </div>

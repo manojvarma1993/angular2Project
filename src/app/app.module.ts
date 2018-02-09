@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ItemComponent } from './item-component/item-component.component';
+import { FavDirective } from './fav.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ItemComponent
+    ItemComponent,
+    FavDirective
   ],
   imports: [
     BrowserModule,
